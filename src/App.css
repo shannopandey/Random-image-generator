@@ -1,38 +1,115 @@
+  h1{
+     background-image: linear-gradient(to top right,rgb(6, 6, 6), rgb(179, 174, 178));
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-align: center;
+     margin-left: 30px;
+    }
+  .App {
+    text-align: center;
+    margin-top: 100px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .img:hover{
+    box-shadow: 5px 2px 3px 3px grey;
+  }
+  /* breakpoint for Mobile */
+@media screen and (min-width:320px) and (max-width:480){
 .App {
   text-align: center;
+  margin-top: 100px;
+}
+ul{
+  list-style-type: none;
+}
+.img:hover{
+  box-shadow: 5px 2px 3px 3px grey;
+}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Breakpoint for ipad , Tablets  */
+@media screen and (min-width:481px) and (max-width: 768px)
+{
+  h1{
+    background-image: linear-gradient(to top right,rgb(6, 6, 6), rgb(179, 174, 178));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-left: 30px;
+   }
+   ul{
+    list-style-type: none;
+  }
+  .App {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .img:hover{
+    box-shadow: 5px 2px 3px 3px grey;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* breakpoint for small screens, laptops */
+@media screen and (min-width:769px) and (max-width: 1024px)
+{
+  ul{
+    list-style-type: none;
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+    background-image: linear-gradient(to top right,rgb(6, 6, 6), rgb(179, 174, 178));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-left: 30px;
+   }
+  .App {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .img:hover{
+    box-shadow: 5px 2px 3px 3px grey;
+  }
+}
+
+/* Breakpoint for Desktops, large screens */
+@media screen and (min-width:1025px) and (max-width: 1200px)
+{
+  ul{
+    list-style-type: none;
+  }
+  h1{
+    background-image: linear-gradient(to top right,rgb(6, 6, 6), rgb(179, 174, 178));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-left: 30px;
+   }
+  .App {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .img:hover{
+    box-shadow: 5px 2px 3px 3px grey;
+  }
+}
+/* Breakpoint for extra large screens, Tv */
+@media screen and (min-width:1201px) and (max-width: 1500px)
+{
+  ul{
+    list-style-type: none;
+  }
+  h1{
+    background-image: linear-gradient(to top right,rgb(6, 6, 6), rgb(179, 174, 178));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-left: 30px;
+   }
+  .App {
+    text-align: center;
+    margin-top: 100px;
+    /* background-color: #42414b; */
   }
 }
